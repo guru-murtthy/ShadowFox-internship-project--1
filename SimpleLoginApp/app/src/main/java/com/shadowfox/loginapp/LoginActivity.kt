@@ -17,8 +17,8 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var firebaseHelper: FirebaseHelper
     private lateinit var biometricHelper: BiometricHelper
 
-    override fun onCreate(Bundle Bundle) {
-        super.onCreate(Bundle)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)

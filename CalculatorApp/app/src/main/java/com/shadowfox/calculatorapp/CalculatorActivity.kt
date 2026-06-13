@@ -22,7 +22,7 @@ class CalculatorActivity : AppCompatActivity() {
     
     private val SPEECH_REQUEST_CODE = 101
 
-    override fun onCreate(Bundle Bundle) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         // Load theme preference before super.onCreate
         sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
         val isDarkMode = sharedPrefs.getBoolean(KEY_DARK_MODE, false)
@@ -33,7 +33,7 @@ class CalculatorActivity : AppCompatActivity() {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         }
         
-        super.onCreate(Bundle)
+        super.onCreate(savedInstanceState)
         
         binding = ActivityCalculatorBinding.inflate(layoutInflater)
         setContentView(binding.root)
