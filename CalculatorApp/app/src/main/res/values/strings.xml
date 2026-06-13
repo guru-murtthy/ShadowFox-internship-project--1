@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Scientific Calculator</string>
+    <string name="theme_toggle_label">Dark Mode</string>
+    <string name="voice_prompt">Say a math formula (e.g. \"5 plus 10\")</string>
+    <string name="voice_listening">Listening...</string>
+    <string name="error_divide_zero">Cannot divide by zero</string>
+    <string name="error_invalid_expression">Error</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_backspace">⌫</string>
+    <string name="btn_equal">=</string>
+    <string name="btn_dot">.</string>
+</resources>

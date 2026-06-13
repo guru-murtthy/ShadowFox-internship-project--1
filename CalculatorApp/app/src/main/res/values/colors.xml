@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Accent & Operation Colors -->
+    <color name="accentBlue">#3A7DFF</color>
+    <color name="accentBlueLight">#6699FF</color>
+    <color name="accentOrange">#FF9F0A</color>
+    <color name="accentOrangeLight">#FFB340</color>
+    <color name="accentRed">#FF453A</color>
+    
+    <!-- Light Theme Palettes -->
+    <color name="lightBackground">#F2F2F7</color>
+    <color name="lightCardBackground">#FFFFFF</color>
+    <color name="lightButtonBackground">#E5E5EA</color>
+    <color name="lightTextPrimary">#1C1C1E</color>
+    <color name="lightTextSecondary">#8E8E93</color>
+    
+    <!-- Dark Theme Palettes -->
+    <color name="darkBackground">#1C1C1E</color>
+    <color name="darkCardBackground">#2C2C2E</color>
+    <color name="darkButtonBackground">#3A3A3C</color>
+    <color name="darkTextPrimary">#FFFFFF</color>
+    <color name="darkTextSecondary">#AEAEB2</color>
+</resources>
