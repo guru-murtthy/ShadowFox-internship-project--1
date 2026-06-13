@@ -1,3 +1,5 @@
+![Android CI](https://github.com/guru-murtthy/ShadowFox-internship-project--1/actions/workflows/android.yml/badge.svg)
+
 # Shadowfox Android Developer Internship - Part 1: Beginner Level (Foundations)
 
 This workspace contains the source code, tests, and configuration for the two beginner-level Android applications requested by the Shadowfox Android Developer Internship. Both applications are written in Kotlin using Android Studio best practices, implementing modular and clean architecture.
